@@ -1,0 +1,21 @@
+{
+  "name": "dsh-workspace-lastused",
+  "version": "0.1.0",
+  "description": "Keeps the most recently used workspace first in the DeepSeek Harness sidebar, persisted across restarts.",
+  "keywords": ["dsh", "deepseek-harness", "dsh-plugin", "workspace", "sort"],
+  "author": "DangDangDeng",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": ["index.js", "cordis.patch.yml", "locale/*.json", "icon.svg", "README.md", "README.zh.md", "LICENSE"],
+  "engines": { "node": ">=20" },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Recent Workspace First",
+    "description": "Moves the workspace you just used to the top of the sidebar and keeps that order across restarts."
+  }
+}
